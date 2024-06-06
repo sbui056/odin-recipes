@@ -3,8 +3,34 @@
     background-color: gray;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 72px;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: rainbow;
+    animation-timeline: auto;
+    animation-range-start: normal;
 }
-
+@keyframes rainbow {
+    0% {
+        background: violet;
+    }
+    25% {
+        background: orange;
+    }
+    50% {
+        background: yellow;
+    }
+    75% {
+        background: blue;
+    }
+    100% {
+        background: violet;
+    }
+}
 body {
     text-align: center;
     list-style-position: inside;
