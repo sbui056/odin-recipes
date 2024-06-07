@@ -1,4 +1,11 @@
+/* testing the box model */
+/* * {
+    outline: 1px solid red;
+} */
+
 .title {
+    padding: 55px;
+    margin: 0 auto;
     color: rgb(21, 21, 102);
     background-color: gray;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -32,16 +39,29 @@
     }
 }
 body {
+    margin: 0 auto;
     text-align: center;
     list-style-position: inside;
 }
 
 .link {
-    font-size: 48px;
+    font-size: 36px;
+    font-family: cursive;
+    background-color: gainsboro;
+    padding: 10px;
+    margin: 25px auto;
+}
+
+.linkcontainer {
+    padding: 0px;
+    margin: 0px;
 }
 
 .small-text {
-    font-size: 36px;
+    margin:0 auto;
+    font-size: 48px;
     font-weight: 700;
     color: rgb(21, 21, 102);
+    padding: 20px;
+    background-color: beige;
 }
